@@ -72,39 +72,39 @@ Follow these instructions step-by-step after downloading or cloning the project.
 ### 1️⃣ Navigate to the Project Folder
 
 Open your terminal and run:
-
-cd path/to/Multi_disease_using_streamlit_app
-
+> ```
+>cd path/to/Multi_disease_using_streamlit_app
+> ```
 
 > Replace `path/to/` with your actual folder path.
 
 ### 2️⃣ Install Required Python Packages
 
 If `requirements.txt` is available:
-
-pip install -r requirements.txt
-
+> ```
+>pip install -r requirements.txt
+> ```
 
 If not available, manually install packages:
-
-pip install streamlit pandas matplotlib gtts streamlit-option-menu
-
+> ```
+>pip install streamlit pandas matplotlib gtts streamlit-option-menu
+> ```
 
 ---
 
 ### 3️⃣ Run the Application
 
 Make sure you're inside the `Multi_disease_using_streamlit_app` directory and then run:
-
-streamlit run multi_disease_pred.py
-
+> ```
+>streamlit run multi_disease_pred.py
+> ```
 
 > ✅ Example:  
 > If your main app file is named differently (e.g., `app.py`), update the filename in the command accordingly:
 > 
-> ```
-> streamlit run app.py
-> ```
+
+streamlit run app.py
+
 
 ---
 
